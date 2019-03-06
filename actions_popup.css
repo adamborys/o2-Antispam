@@ -1,0 +1,36 @@
+html, body {
+    width: 200px;
+    background: #293136;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    margin: 3% auto;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Calibri', 'Trebuchet MS';
+    cursor: pointer;
+    
+    /* No select */
+    -webkit-user-select: none; /* Safari */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.action {
+    background-image: linear-gradient(#A1B8E3, #8BAAE3);
+}
+
+.action:hover {
+    background-image: linear-gradient(#C4D0E7, #A1B8E3);
+}
+
+.action:active {
+    background-image: linear-gradient(#779DE3, #618FE3);
+}
